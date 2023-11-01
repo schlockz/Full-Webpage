@@ -1,0 +1,54 @@
+/* Importing the font (regular and bold ) */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+
+/* Colors used on page */
+/* #f4f4f4 */
+/* #eb4442 */
+/* #e6e6e6 */
+/* #2b2b3e */
+
+  /* Basic Styles */
+  body{
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+  }
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* The Overflow property helps the image to display correctly without messing up the page. Will clip the 'overflowing' content */
+    overflow: hidden;
+
+}
+
+ ul{
+    margin: 0;
+}
+
+.btn-1{
+    height: 36px;
+    background-color: #eb444e;
+    border:0;
+    padding: 0, 20px;
+    color:#fff;
+}
+
+.light, .dark{
+    padding:15px;
+    margin:10px, 0;
+}
+
+.light{
+    background-color: #e6e6e6;
+    color:#2d2d3e;
+}
+
+.dark{
+    background-color: #2d2d3e;
+    color: #e6e6e6;
+}
