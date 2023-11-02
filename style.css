@@ -98,3 +98,45 @@ a:not([href="#"]):hover{
   letter-spacing: 0.15px ;
 }
 
+/* Showcase */
+#showcase{
+  background-image: url("laptop.png");
+  height:400px;
+  background-size:cover;
+  background-position: center;
+  text-align:center;
+  color:#fff;
+}
+#showcase .container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  height:100%;
+}
+
+#showcase h1 {
+  font-size:55px;
+}
+#showcase p {
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter {
+  background-color: #2d2d3e;
+  padding:15px;
+  color:#e6e6e6;
+}
+
+#newsletter .container{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+#newletter input {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
