@@ -188,3 +188,40 @@ color: #f3df50
   column-gap: 50px;
 }
 
+/* Services */
+#services .container{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 50px;
+}
+
+#services ul {
+  /* Removes left padding as well as Bullet Points */
+  padding:0;
+}
+
+#services li{
+  border: 1px solid #ccc ;
+  padding: 20px;
+  margin-bottom: 5px ;
+  background-color: #e6e6e6;
+}
+
+#services .sidebar{
+  margin-top: 10px ;
+}
+
+#services input, #services textarea {
+  width:90%;
+  margin-bottom: 10px ;
+  padding: 5px;
+}
+
+/* Footer */
+footer{
+  background-color: #2d2d3e;
+  color:#e6e6e6;
+  padding: 20px;
+  text-align:center;
+  margin-top:20px;
+}
